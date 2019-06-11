@@ -1,0 +1,7 @@
+{
+  "nombreComercial" : "Java Architect Application Developer",
+  "codigo" : 123,
+  "modulos" : [ "Fundamentos de Comunicacion de Sistemas Distribuidos", "Arquitectura de Web Services y Estandares Relacionados" ],
+  "fechaInicio" : 1459486800000,
+  "fechaFin" : 1468990800000
+}
