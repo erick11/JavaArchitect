@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.cibertec</groupId>
+    <artifactId>JavaArchitect</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>moduloI_sistemas_distribuidos</artifactId>
+  <packaging>war</packaging>
+  <name>moduloI_sistemas_distribuidos</name>
+  <description>COMUNICACION DE SISTEMAS DISTRIBUIDOS</description>
+	
+  	
+
+
+</project>

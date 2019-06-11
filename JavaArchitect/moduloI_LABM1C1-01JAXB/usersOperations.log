@@ -1,0 +1,31 @@
+18:45:02,866 [main      ] INFO  (modulo01.JAXBMarshall:40) 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:profesor xmlns:ns2="http://www.cibertec.edu/jaad/profesor" codigo="452334">
+    <nombre>Juan</nombre>
+    <apellido>Perez</apellido>
+    <fechaIngreso>2010-11-21T00:00:00-05:00</fechaIngreso>
+</ns2:profesor>
+
+18:55:42,894 [main      ] INFO  (evaluacion.JAXBMarshall:40) 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:profesor xmlns:ns2="http://www.cibertec.edu/jaad/objeto/profesor" codigo="452334">
+    <nombre>Juan</nombre>
+    <apellido>Perez</apellido>
+    <fechaIngreso>2010-11-21T00:00:00-05:00</fechaIngreso>
+</ns2:profesor>
+
+18:56:19,535 [main      ] INFO  (evaluacion.JAXBMarshall:42) 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:profesor xmlns:ns2="http://www.cibertec.edu/jaad/objeto/profesor" codigo="452334">
+    <nombre>Juan</nombre>
+    <apellido>Perez</apellido>
+    <fechaIngreso>2010-11-21T00:00:00-05:00</fechaIngreso>
+    <telefono>991013813</telefono>
+</ns2:profesor>
+
+18:56:51,423 [main      ] INFO  (evaluacion.JAXBUnMarshall:29) Datos del profesor
+18:56:51,425 [main      ] INFO  (evaluacion.JAXBUnMarshall:30) Codigo: 452334
+18:56:51,425 [main      ] INFO  (evaluacion.JAXBUnMarshall:31) Nombre: Juan
+18:56:51,425 [main      ] INFO  (evaluacion.JAXBUnMarshall:32) Apellido: Perez
+18:56:51,428 [main      ] INFO  (evaluacion.JAXBUnMarshall:33) FechaIngreso: Sun Nov 21 00:00:00 COT 2010
+18:56:51,428 [main      ] INFO  (evaluacion.JAXBUnMarshall:34) Telefono: 991013813

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:profesor xmlns:ns2="http://www.cibertec.edu/jaad/objeto/profesor" codigo="452334">
+    <nombre>Juan</nombre>
+    <apellido>Perez</apellido>
+    <fechaIngreso>2010-11-21T00:00:00-05:00</fechaIngreso>
+    <telefono>991013813</telefono>
+</ns2:profesor>
