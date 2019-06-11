@@ -1,4 +1,4 @@
-package edu.cibertec.jaad.json;
+package auto.evaluacion;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -16,31 +16,27 @@ public class JSONMarshall {
 	private static final Logger LOG = LoggerFactory.getLogger(JSONMarshall.class);
 
 	public static void main(String[] args) {
-		
 		LOG.info("Starting...");
-		
-		/**Se instacia el objetos Programa y settea sus atributos*/
 		Programa programa = new Programa();
 		programa.setCodigo(123);
-		programa.setNombre("Java Architect Application Developer");		
+		programa.setNombre("Java Architect Application Developer");
+
 		List<String> modulos = new ArrayList<String>();
 		modulos.add("Fundamentos de Comunicacion de Sistemas Distribuidos");
 		modulos.add("Arquitectura de Web Services y Estandares Relacionados");
 		programa.setModulos(modulos);
 		programa.setFechaInicio(new GregorianCalendar(2016, 3, 1).getTime());
 		programa.setFechaFin(new GregorianCalendar(2016, 6, 20).getTime());
-       
+
+		/**autoEvaluacion*/
+		programa.setCodigoLocal("codigo local");
+		
 		try {
-			
-			/**Se instancia (crea) el objeto File*/ 
 			File programaJson = new File("programa.json");
-			/**Se instancia (crea) el objeto File*/
 			ObjectMapper mapper = new ObjectMapper();
-			mapper.configure(Feature.INDENT_OUTPUT, true); // Define la configuracion
+			mapper.configure(Feature.INDENT_OUTPUT, true);
 			mapper.writeValue(programaJson, programa);
-			
 			LOG.info("Resultado:\n" + mapper.writeValueAsString(programa));
-			
 		} catch (Exception ex) {
 			LOG.error("Error al generar el archivo", ex);
 		}
